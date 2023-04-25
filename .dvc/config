@@ -1,0 +1,10 @@
+[cache]
+    dir = /home/glab/Documents/myproject/cachedvc/
+    type = reflink
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://toto
+    endpointurl = http://172.18.0.2:9000
+    access_key_id = minioadmin
+    secret_access_key = minioadmin
