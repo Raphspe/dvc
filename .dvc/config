@@ -1,6 +1,6 @@
 [cache]
     dir = /home/glab/Documents/myproject/cachedvc/
-    type = reflink
+    type = symlink
 [core]
     remote = minio
 ['remote "minio"']
